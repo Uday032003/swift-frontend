@@ -302,13 +302,13 @@
 
   .name {
     width: 25%;
-    overflow: hidden;
+    overflow-x: auto;
     padding-left: 5px;
   }
 
   .email {
     width: 25%;
-    overflow: hidden;
+    overflow-x: auto;
     padding-left: 5px;
   }
 
