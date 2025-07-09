@@ -114,11 +114,25 @@
 
 .name {
   width: 25%;
+  overflow: auto;
+  scrollbar-width: none;    
+  -ms-overflow-style: none;
+}
+
+.name::-webkit-scrollbar {
+  display: none;
 }
 
 .email {
   width: 25%;
+  overflow: auto;
+  scrollbar-width: none;    
+  -ms-overflow-style: none;
 }
+
+.email::-webkit-scrollbar {
+  display: none;
+  }
 
 .comment {
   width: 40%;
@@ -301,27 +315,11 @@
   }
 
   .name {
-    width: 25%;
-    overflow: auto;
     padding-left: 5px;
-    scrollbar-width: none;         /* Firefox */
-    -ms-overflow-style: none;
-  }
-
-  .name::-webkit-scrollbar {
-  display: none;                 /* Chrome, Safari, Edge */
   }
 
   .email {
-    width: 25%;
-    overflow: auto;
     padding-left: 5px;
-    scrollbar-width: none;         /* Firefox */
-    -ms-overflow-style: none;
-  }
-
-  .email::-webkit-scrollbar {
-  display: none;                 /* Chrome, Safari, Edge */
   }
 
   .comment {
